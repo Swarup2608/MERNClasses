@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Strength Check</title>
+</head>
+<body>
+  <form action="">
+    <input type="text" name="name" placeholder="Enter Name" />
+    <input type="password" name="password" placeholder="Enter Password" onchange="PasswordVerify(this.value)"
+    />
+    <div id="message"></div>
+    <input type="submit" value="Submit" />
+  </form>
+
+  <script>
+    function PasswordVerify(password) {
+      const message = document.getElementById('message');
+      
+      if (password.length > 8) {
+        message.innerHTML = 'Strong Password';
+      } else {
+        message.innerHTML = 'Weak Password';
+      }
+    }
+  </script>
+</body>
+</html>
