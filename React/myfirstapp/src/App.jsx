@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Cards from './components/Cards'
 import Cars from './components/Cars';
 import Timer from './components/Timer';
+import MyContext from './context/mainContext';
+import Component1 from './Component1';
+import { Link } from 'react-router-dom';
+import Counter from './components/Counter';
 
 const App = () => {
 
@@ -12,11 +16,12 @@ const App = () => {
         model : 'Nano',
         color : 'Green'
     });
+
   return (
     <div className='abc'>
-      <Cards name={name} age={age} setName={setNameHook} setAge={setAge} />
-      <Cars car={car} setCar={setCar}  />
-      <Timer />
+      <Component1 car={car} setCar={setCar} />
+      <Counter/>
+      <a href="https://www.google.com">Google</a>
     </div>
   )
 }
