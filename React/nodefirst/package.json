@@ -1,0 +1,20 @@
+{
+  "name": "nodefirst",
+  "version": "1.0.0",
+  "description": "This is my first Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "First",
+    "Node",
+    "js"
+  ],
+  "author": "Swarup",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "platform": "win32",
+  "architecture": "x64",
+  "hostname": "Swarup",
+  "cpuModel": "AMD Ryzen 5 5600H with Radeon Graphics         ",
+  "cpuCores": 12,
+  "totalMemory": "5.86 GB",
+  "freeMemory": "0.86 GB",
+  "uptime": "19.32 hours",
+  "osType": "Windows_NT",
+  "osRelease": "10.0.22631",
+  "network": {
+    "Wi-Fi": [
+      {
+        "address": "fe80::2e1e:a3a6:f4ae:25f4",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "d8:80:83:4f:bc:f5",
+        "internal": false,
+        "cidr": "fe80::2e1e:a3a6:f4ae:25f4/64",
+        "scopeid": 16
+      },
+      {
+        "address": "192.168.1.68",
+        "netmask": "255.255.255.0",
+        "family": "IPv4",
+        "mac": "d8:80:83:4f:bc:f5",
+        "internal": false,
+        "cidr": "192.168.1.68/24"
+      }
+    ],
+    "Loopback Pseudo-Interface 1": [
+      {
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "::1/128",
+        "scopeid": 0
+      },
+      {
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "127.0.0.1/8"
+      }
+    ]
+  }
+}
