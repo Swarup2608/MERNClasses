@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "This is my first Node js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm run test",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "First",
@@ -14,7 +15,10 @@
   ],
   "author": "Swarup",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.21.2"
   }
 }

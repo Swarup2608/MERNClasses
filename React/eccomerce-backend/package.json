@@ -1,0 +1,17 @@
+{
+  "name": "eccomerce-backend",
+  "version": "1.0.0",
+  "description": "Eccomerce Website Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0"
+  }
+}
